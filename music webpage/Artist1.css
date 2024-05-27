@@ -1,0 +1,81 @@
+*margin{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.section1{
+    height: 50px;
+    display: flex;
+    color: white;
+    background-color: black; 
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+
+ } 
+
+.hero-section{
+    background-image: url(image/back.jpg);
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.section1 i{
+    position: relative;
+    font-size: 30px;
+    left: -600px;
+    color: white;
+}
+
+.section1 p{
+    position: relative;
+    font-size: 30px;
+    /* top: 10px; */
+}
+.section2{
+    height: 600px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color:rgb(36, 35, 35);
+    color: white;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* background-color: red; */
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.circle1{
+background-image: url(image/annu.jpg);
+background-size: cover;
+}
+.circle2{
+    background-image: url(image/kamal.jpg);
+    background-size: cover;
+}
+.circle3{
+    background-image: url(image/sajan.jpg);
+    background-size: cover;
+}
+.circle4{
+        background-image: url(image/ragshree_rai.jpg);
+        background-size: cover;
+}
+.content1{
+    position: relative ;
+    top: 30px;
+    left: 40px;
+}
